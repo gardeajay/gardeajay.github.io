@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
 <title>Professor Gardea Jaywhehgar</title>
 
 <style>
 body{
-    font-family:Arial, sans-serif;
-    background:#f3f6fa;
     margin:0;
+    font-family:Segoe UI, Arial, sans-serif;
+    background:#f4f6f8;
 }
 
 header{
@@ -18,23 +19,28 @@ header{
 }
 
 .container{
-    max-width:1000px;
-    margin:auto;
-    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+    padding:25px;
 }
 
 .card{
     background:white;
-    margin:15px;
     padding:20px;
     border-radius:10px;
-    box-shadow:0 2px 6px rgba(0,0,0,.2);
+    box-shadow:0 3px 8px rgba(0,0,0,.15);
 }
 
-a{
-    color:#0055aa;
+.card a{
     text-decoration:none;
+    color:#0055aa;
     font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
 }
 </style>
 
@@ -43,38 +49,67 @@ a{
 <body>
 
 <header>
-<h1>Professor Gardea Jaywhehgar</h1>
-<p>Course Resources and Supplemental Materials</p>
+    <h1>Professor Gardea Jaywhehgar</h1>
+    <p>Course Resources and Supplemental Materials</p>
 </header>
 
 <div class="container">
 
 <div class="card">
-<h2>CST120</h2>
-<p>Computer Configuration and Support</p>
+<h2>CST160</h2>
+CST160/Open Course →</a>
+</div>
+
+<div class="card">
+<h2>CIS256</h2>
+CIS256/Open Course →</a>
+</div>
+
+<div class="card">
+<h2>CIS256L</h2>
+CIS256L/Open Course →</a>
 </div>
 
 <div class="card">
 <h2>CYB220</h2>
-<p>Introduction to Routing and Switching</p>
+CYB220/Open Course →</a>
 </div>
 
 <div class="card">
 <h2>CYB220L</h2>
-<p>Routing and Switching Laboratory</p>
+CYB220L/Open Course →</a>
 </div>
 
 <div class="card">
-<h2>CYB430</h2>
-<p>Cyber Defense</p>
+<h2>CYB240</h2>
+CYB240/Open Course →</a>
 </div>
 
 <div class="card">
-<h2>CYB430L</h2>
-<p>Cyber Defense Laboratory</p>
+<h2>CYB240L</h2>
+CYB240L/Open Course →</a>
+</div>
+
+<div class="card">
+<h2>CYB320</h2>
+CYB320/Open Course →</a>
+</div>
+
+<div class="card">
+<h2>CYB330L</h2>
+CYB330L/Open Course →</a>
+</div>
+
+<div class="card">
+<h2>CYB380</h2>
+CYB380/Open Course →</a>
 </div>
 
 </div>
+
+<footer>
+© 2026 Gardea Jaywhehgar
+</footer>
 
 </body>
 </html>
