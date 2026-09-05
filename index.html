@@ -18,38 +18,43 @@ header{
     background:#003366;
     color:white;
     text-align:center;
-    padding:35px;
+    padding:40px 20px;
 }
 
 header h1{
-    margin-bottom:10px;
+    margin:0;
+}
+
+header p{
+    margin-top:10px;
 }
 
 .container{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:20px;
-    padding:25px;
     max-width:1400px;
     margin:auto;
+    padding:30px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
 }
 
 .card-link{
     text-decoration:none;
     color:inherit;
+    display:block;
 }
 
 .card{
     background:white;
+    padding:25px;
     border-radius:12px;
-    padding:20px;
-    box-shadow:0 3px 10px rgba(0,0,0,.15);
-    transition:all 0.2s ease;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+    transition:all .2s ease;
 }
 
 .card:hover{
     transform:translateY(-5px);
-    box-shadow:0 6px 15px rgba(0,0,0,.25);
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
 }
 
 .card h2{
@@ -59,6 +64,12 @@ header h1{
 
 .card p{
     color:#555;
+    min-height:50px;
+}
+
+.open{
+    color:#0055aa;
+    font-weight:bold;
 }
 
 footer{
@@ -70,7 +81,6 @@ footer{
 }
 
 </style>
-
 </head>
 
 <body>
@@ -86,7 +96,7 @@ footer{
         <div class="card">
             <h2>CST160</h2>
             <p>Introduction to Networking</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -94,7 +104,7 @@ footer{
         <div class="card">
             <h2>CIS256</h2>
             <p>Windows Active Directory</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -102,7 +112,7 @@ footer{
         <div class="card">
             <h2>CIS256L</h2>
             <p>Windows Active Directory Lab</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -110,7 +120,7 @@ footer{
         <div class="card">
             <h2>CYB220</h2>
             <p>Introduction to Routing and Switching</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -118,7 +128,7 @@ footer{
         <div class="card">
             <h2>CYB220L</h2>
             <p>Introduction to Routing and Switching Lab</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -126,7 +136,7 @@ footer{
         <div class="card">
             <h2>CYB240</h2>
             <p>Windows Client and Server</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -134,7 +144,7 @@ footer{
         <div class="card">
             <h2>CYB240L</h2>
             <p>Windows Client and Server Lab</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -142,7 +152,7 @@ footer{
         <div class="card">
             <h2>CYB320</h2>
             <p>Intermediate Routing and Switching</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -150,7 +160,7 @@ footer{
         <div class="card">
             <h2>CYB330L</h2>
             <p>Network Routing and Switching Lab</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
@@ -158,7 +168,7 @@ footer{
         <div class="card">
             <h2>CYB380</h2>
             <p>Network Scripting</p>
-            <strong>Open Course →</strong>
+            <span class="open">Open Course →</span>
         </div>
     </a>
 
