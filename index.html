@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Professor Gardea Jaywhehgar</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Professor Gardea Jaywhehgar - Course Resources</title>
 
 <style>
+
 body{
     margin:0;
     font-family:Segoe UI, Arial, sans-serif;
@@ -15,33 +18,57 @@ header{
     background:#003366;
     color:white;
     text-align:center;
-    padding:30px;
+    padding:35px;
+}
+
+header h1{
+    margin-bottom:10px;
 }
 
 .container{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:20px;
     padding:25px;
+    max-width:1400px;
+    margin:auto;
+}
+
+.card-link{
+    text-decoration:none;
+    color:inherit;
 }
 
 .card{
     background:white;
+    border-radius:12px;
     padding:20px;
-    border-radius:10px;
-    box-shadow:0 3px 8px rgba(0,0,0,.15);
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+    transition:all 0.2s ease;
 }
 
-.card a{
-    text-decoration:none;
-    color:#0055aa;
-    font-weight:bold;
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 6px 15px rgba(0,0,0,.25);
+}
+
+.card h2{
+    color:#003366;
+    margin-top:0;
+}
+
+.card p{
+    color:#555;
 }
 
 footer{
+    background:#003366;
+    color:white;
     text-align:center;
-    padding:20px;
+    padding:15px;
+    margin-top:30px;
 }
+
 </style>
 
 </head>
@@ -50,65 +77,95 @@ footer{
 
 <header>
     <h1>Professor Gardea Jaywhehgar</h1>
-    <p>Course Resources and Supplemental Materials</p>
+    <p>Course Resources, Labs, Study Guides, and Supplemental Materials</p>
 </header>
 
 <div class="container">
 
-<div class="card">
-<h2>CST160</h2>
-CST160/Open Course →</a>
-</div>
+    CST160/
+        <div class="card">
+            <h2>CST160</h2>
+            <p>Computer Configuration and Support</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CIS256</h2>
-CIS256/Open Course →</a>
-</div>
+    CIS256/
+        <div class="card">
+            <h2>CIS256</h2>
+            <p>Computer Networking</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CIS256L</h2>
-CIS256L/Open Course →</a>
-</div>
+    CIS256L/
+        <div class="card">
+            <h2>CIS256L</h2>
+            <p>Computer Networking Lab</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CYB220</h2>
-CYB220/Open Course →</a>
-</div>
+    CYB220/
+        <div class="card">
+            <h2>CYB220</h2>
+            <p>Introduction to Routing and Switching</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CYB220L</h2>
-CYB220L/Open Course →</a>
-</div>
+    CYB220L/
+        <div class="card">
+            <h2>CYB220L</h2>
+            <p>Routing and Switching Laboratory</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CYB240</h2>
-CYB240/Open Course →</a>
-</div>
+    CYB240/
+        <div class="card">
+            <h2>CYB240</h2>
+            <p>Cybersecurity Fundamentals</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CYB240L</h2>
-CYB240L/Open Course →</a>
-</div>
+    CYB240L/
+        <div class="card">
+            <h2>CYB240L</h2>
+            <p>Cybersecurity Fundamentals Lab</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CYB320</h2>
-CYB320/Open Course →</a>
-</div>
+    CYB320/
+        <div class="card">
+            <h2>CYB320</h2>
+            <p>Network Security</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CYB330L</h2>
-CYB330L/Open Course →</a>
-</div>
+    CYB330L/
+        <div class="card">
+            <h2>CYB330L</h2>
+            <p>Cybersecurity Operations Lab</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
-<div class="card">
-<h2>CYB380</h2>
-CYB380/Open Course →</a>
-</div>
+    CYB380/
+        <div class="card">
+            <h2>CYB380</h2>
+            <p>Advanced Cybersecurity Topics</p>
+            <strong>Open Course →</strong>
+        </div>
+    </a>
 
 </div>
 
 <footer>
-© 2026 Gardea Jaywhehgar
+    © 2026 Gardea Jaywhehgar | Course Resources
 </footer>
 
 </body>
